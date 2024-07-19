@@ -1,12 +1,44 @@
 # 🏏 Cricket Match Analysis
 
-This project fetches and analyzes cricket match data from an external API. It determines the highest team scores and counts the number of matches with total scores above 300. 🚀🌐📊
+This project fetches and analyzes cricket match data from an external API. It determines the highest team scores in one innings and counts the number of matches with total scores above 300. 🚀🌐📊
 
-## Features
+## Problem Statement
 
-- Fetch cricket match data from a specified API.
-- Analyze match data to find the highest scores by teams.
-- Count the number of matches with combined scores above 300.
+You will be given an API which contains a list of recent cricket matches with their data. The task is to print a few key results from the given set of matches.
+
+## API Description
+
+Here is the API curl link:
+
+```bash
+curl --location 'https://api.cuvora.com/car/partner/cricket-data' \
+--header 'apiKey: test-creds@2320'
+```
+
+# API Documentation: Match Data
+
+This API provides a list of matches with detailed information. Each match entry includes various fields that describe the match's status, teams, and scores.
+
+## GET /matches
+
+### Description
+
+Retrieve a list of matches with their respective data.
+
+### Response Fields
+
+- **id**: Unique identifier for the match.
+- **dateTimeGMT**: Date and Time of the match in GMT.
+- **matchType**: Type of the match (e.g., T20, ODI, Test Match).
+- **status**: Result of the match (e.g., "Team A won by 10 runs").
+- **ms**: Match Status
+  - `Result`: Match result is obtained.
+  - `Fixture`: The match is scheduled but not yet started.
+  - `Ongoing`: The match is currently in progress.
+- **t1**: Name of Team 1.
+- **t2**: Name of Team 2.
+- **t1s**: Score of Team 1.
+- **t2s**: Score of Team 2.
 
 ## Prerequisites
 
