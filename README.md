@@ -31,18 +31,39 @@ This project fetches and analyzes cricket match data from an external API. It de
 3. **Run the main program**:
 
     ```bash
-    java -cp .:json-20210307.jar com.crickbuzz.cricketmatches.CricketAnalysis
+    java -cp .:json-20210307.jar com.crickbuzz.cricketmatches.Main
     ```
 
 ## Project Structure
 
 ```plaintext
-cricket-match-analysis/
+Cricket_Analysis/
 ├── com/
 │   └── crickbuzz/
 │       └── cricketmatches/
 │           ├── CricketAnalysis.java
-│           └── CricketAnalysisTest.java
+│           └── Main.java
 ├── json-20210307.jar
 ├── README.md
 └── .gitignore
+```
+
+## Example Output
+
+```plaintext
+Highest Score: "350" and Team Name is: "Team A"
+Number Of Matches with total 300 Plus Score: "5"
+```
+## Contributing
+Contributions are welcome! Please create an issue or submit a pull request for any enhancements or bug fixes.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Feel free to replace https://github.com/Er-Abhay-FSD/Cricket_Analysis.git with your actual GitHub repository URL. If you have any questions or need further assistance, please don't hesitate to ask!
+
+```plaintext
+
+This `README.md` should provide a clear guide for users to understand and run your project.
+
+```
