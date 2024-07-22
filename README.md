@@ -25,8 +25,8 @@ I am writing to provide information regarding the setup of my current project, t
 
 3. **Project Structure**:
 ```bash
-cricketmatches
-├── lib
+Cricket_Analysis
+├── Rifrenced Libraries
 │   └── json-20230227.jar
 └── src
     └── com
@@ -127,19 +127,6 @@ Retrieve a list of matches with their respective data.
     java -cp .:json-20210307.jar com.crickbuzz.cricketmatches.Main
     ```
 
-## Project Structure
-
-```plaintext
-Cricket_Analysis/
-├── com/
-│   └── crickbuzz/
-│       └── cricketmatches/
-│           ├── CricketAnalysis.java
-│           └── Main.java
-├── json-20210307.jar
-├── README.md
-└── .gitignore
-```
 
 ## Example Output
 
