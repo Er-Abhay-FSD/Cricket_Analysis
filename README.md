@@ -147,7 +147,6 @@ Contributions are welcome! Please create an issue or submit a pull request for a
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Feel free to replace https://github.com/Er-Abhay-FSD/Cricket_Analysis.git with your actual GitHub repository URL. If you have any questions or need further assistance, please don't hesitate to ask!
 
 ```plaintext
 
