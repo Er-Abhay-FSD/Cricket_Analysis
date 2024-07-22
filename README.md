@@ -126,6 +126,13 @@ Retrieve a list of matches with their respective data.
     ```bash
     java -cp .:json-20210307.jar com.crickbuzz.cricketmatches.Main
     ```
+## Application Output 📸
+
+Below is a screenshot of the application showing the output:
+
+![Application Output](Screenshot/car_info_solution.png) 
+
+_The screenshot above shows the current state of the application._ 💻
 
 
 ## Example Output
